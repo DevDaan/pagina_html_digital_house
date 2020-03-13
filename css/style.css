@@ -84,7 +84,7 @@ li a{
  /* ESTILIZAÇÃO DA PÁGINA MUSIC */
 
 #musicas{
-    margin-top: 70px;
+    margin-top: 60px;
 }
 
 #musicas h1{
@@ -109,3 +109,22 @@ li a{
     list-style-type: none;
 }
 
+
+
+
+/* ESTILIZAÇÃO DA PÁGINA CONTACT */
+
+#contact{
+    margin-left: 50px;
+    max-width: 80%;
+    margin-top: 60px;
+}
+
+#borda{
+    border-bottom: 2px solid rgb(218, 206, 206);
+}
+
+#contact a{
+    color: blue;
+    text-decoration: underline;
+}
