@@ -48,8 +48,35 @@ li a{
 
 
 #rodape{
+    margin-top: 20px;
     padding: 10px;
     font-weight: bold;
     text-align: center;
-    background-color: rgb(250, 249, 249);
+    background-color: rgb(245, 245, 245);
 }
+
+
+
+
+ /* ESTILIZAÇÃO DA PÁGINA ABOUT */
+
+ #about{
+     margin-top: 60px;
+     text-align: center;
+ }
+
+
+ #about h1{
+     font-size: 35px;
+ }
+
+
+ #fotoAbout img{
+     position: relative;
+     left: 25%;
+     width: 50%;
+ }
+
+
+
+ 
