@@ -6,7 +6,9 @@ body{
     font-family: 'Raleway', sans-serif;
 }
 
-
+header{
+    border: 1px solid rgb(202, 201, 201);
+}
 
 /* ESTILIZAÇÃO DO INDEX */
 
@@ -24,7 +26,7 @@ body{
 
 #menu a:hover{
     color: rgb(212, 197, 197);
-    transition: 400ms;
+    transition: 200ms;
     text-decoration: underline;
 }
 
@@ -42,7 +44,7 @@ body{
 }
 
 #menu li a{
-    color:rgb(170, 167, 167);
+    color: black;
     text-decoration: none;
 }
 
@@ -88,10 +90,8 @@ body{
  }
 
 
- #fotoAbout img{
-     position: relative;
-     left: 25%;
-     width: 50%;
+ #about img{
+    width: 300px;
  }
 
 
@@ -130,16 +130,49 @@ body{
 
 /* ESTILIZAÇÃO DA PÁGINA CONTACT */
 
+
 #contact{
     margin-left: 300px;
-    max-width: 80%;
     margin-top: 60px;
 }
 
-#borda{
+#contact h1{
+    font-size: 20px;
+}
+
+section input.tamanho{
+    width: 370px;
+}
+
+textarea{
+    resize: none;
+    width: 370px;
+}
+
+#contact iframe{
+    position: absolute;
+    margin-top: -390px;
+    margin-left: 30%;
+}
+
+#contact button{
+    background-color: red;
+}
+#contact h2{
+    font-size: 15px;
+}
+
+.borda{
+    width: 80%;
     border-bottom: 2px solid rgb(218, 206, 206);
 }
 
+.borda1{
+    width: 80%;
+    margin-top: 30px;
+    border-top: 2px solid rgb(218, 206, 206);
+    border-bottom: 2px solid rgb(218, 206, 206);
+}
 #contact a{
     color: blue;
     text-decoration: underline;
